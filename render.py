@@ -31,9 +31,8 @@ with open('sizes.csv', 'rb') as csvfile:
 for p in data:
     #print h,w
     ax.add_artist(Rectangle(xy=(0, 0),
-                        color=cmap(50),        # I did c**2 to get nice colors from your numbers
-                        width=p.w, height=p.h, fill=False, alpha=0.01, lw=1))      # Gives a square of area h*h
-        
+                        color=cmap(50),      
+                        width=p.w, height=p.h, fill=False, alpha=0.01, lw=1))     
         #plt.draw()
         #time.sleep(0.10)
         
