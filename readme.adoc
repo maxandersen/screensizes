@@ -1,6 +1,6 @@
 = Visualize screensizes
 
-A little experiement I wrote a late night inspired by this https://plus.google.com/+LukeWroblewski/posts/jTLBeNUdPHG?pid=6146550866503083634&oid=100817211548713875249&authkey=CKCb-dPOxc-wZA[G+ Post].
+A little experiement I wrote a late night inspired by this link:https://plus.google.com/+LukeWroblewski/posts/jTLBeNUdPHG?pid=6146550866503083634&oid=100817211548713875249&authkey=CKCb-dPOxc-wZA[Post].
 
 It runs through a comma separated file (currently hardcoded to `sizes.csv`) in the following format:
 
