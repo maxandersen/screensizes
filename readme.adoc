@@ -1,0 +1,32 @@
+= Visualize screensizes
+
+A little experiement I wrote a late night inspired by this https://plus.google.com/+LukeWroblewski/posts/jTLBeNUdPHG?pid=6146550866503083634&oid=100817211548713875249&authkey=CKCb-dPOxc-wZA[G+ Post].
+
+It runs through a comma separated file (currently hardcoded to `sizes.csv`) in the following format:
+
+```
+height,width,frequency
+```
+
+The link:sizes.csv[] is a sample of data from JBoss Tools
+detected screen sizes the last 30 days up to May 9th 2015.
+
+All extracted from standard Google Analytics screen size data.
+
+The result looks like this:
+
+image::example.png[]
+
+== How to install/run
+
+It requires Python and uses matplotlib.
+
+  `pip install matplotlib`
+
+Once installed run:
+
+  `python render.py`
+
+
+
+
